@@ -22,7 +22,7 @@
     "@types/nodemailer": "^6.4.17"
   },
   "scripts": {
-    "dev": "tsc && node dist/server.js"
+    "start": "tsc && node dist/server.js"
   },
   "keywords": [],
   "author": "",
