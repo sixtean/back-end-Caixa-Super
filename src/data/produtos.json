@@ -1,0 +1,21 @@
+[
+    {
+      "codigo": "001",
+      "titulo": "Arroz 5kg",
+      "preco": "19.90",
+      "quantidade": 1
+    },
+    {
+      "codigo": "002",
+      "titulo": "Feijão Preto 1kg",
+      "preco": "7.50",
+      "quantidade": 1
+    },
+    {
+      "codigo": "003",
+      "titulo": "Óleo de Soja 900ml",
+      "preco": "6.00",
+      "quantidade": 1
+    }
+  ]
+  
