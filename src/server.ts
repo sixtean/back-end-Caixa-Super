@@ -17,12 +17,9 @@ app.use(express.json());
 app.use('/user', router);
 app.get('/home', home)
 app.get('/produtos/:codigo', buscarProdutoPorCodigo)
+const PORT = 5000;
 
-app.listen(5000, () => {
+
+app.listen(PORT, () => {
     testeConnection();
-
-    console.log('\n')
-    console.log(colors.blue('============================================================\n'));
-    console.log(colors.blue('== O Servidor está rodando na rota: http://localhost:5000 ==\n'));
-    console.log(colors.blue('============================================================'));
 });
